@@ -1,0 +1,11 @@
+
+before_script: 
+  - curl -sL https://deb.nodesource.com/setup_10.x | bash -
+  - apt-get install -y nodejs
+
+deploy:
+  image: python:latest
+  - npm install
+  - npm run build
+  - pip install awscli
+  - aws s3 cp ./dist/ s3://hoshino-sample-front/ --recursive
