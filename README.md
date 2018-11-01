@@ -1,8 +1,18 @@
-これはフロントsrcプロジェクト
+# AWSを使って開発してみた
 
-# aws-sample
+## tech
+Frontend
+- vue.js
+- vue-router
+- vuetify.js (UI Framework)
 
-> A Vue.js project
+Backend
+- DynamoDB
+- API Gateway
+- Lambda
+
+## attention
+I'm sorry todo API is open but API Gateway has upper limit on the number of requests
 
 ## Build Setup
 
@@ -19,11 +29,6 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
