@@ -1,4 +1,10 @@
 # AWSを使って開発してみた
+### 目的
+- Vuetifyを使う  
+Vue.jsのマテリアルデザインのUIフレームワーク
+- Gitlab RunnerでS3にアップできるか試す
+- routerの使い方覚えているかチェック
+- (localで立ち上げるとそのままバックエンドにも繋がります())
 
 ## tech
 Frontend
